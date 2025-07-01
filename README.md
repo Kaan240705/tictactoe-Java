@@ -35,14 +35,11 @@ javac Main.java
 java Main
 
 
-Erweiterungsideen
+## Erweiterungsideen
 GUI mit Swing oder JavaFX
-
 Highscore-Liste
-
 Schwierigkeit einstellbar
-
 Multiplayer über Netzwerk
 
-Lizenz
+## Lizenz
 Frei nutzbar für Lern- und Übungszwecke.
