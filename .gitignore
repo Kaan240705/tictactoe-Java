@@ -1,1 +1,9 @@
-
+```gitignore
+*.class
+*.jar
+*.log
+.idea/
+.vscode/
+out/
+.DS_Store
+Thumbs.db
