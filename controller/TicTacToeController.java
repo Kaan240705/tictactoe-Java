@@ -8,16 +8,16 @@ public class TicTacToeController {
     private final PlayControl control = new PlayControl();
 
 /* 
-* Spielfeld als 3x3-Array 
-* Werte für leer, Spieler, Computer
+ Spielfeld als 3x3-Array 
+ Werte für leer, Spieler, Computer
 */
 public class PlayControl {
     private final int[][] pField = new int[3][3];
     private final int none = 0, player = 1, computer = 2;
 
 /* 
-* Startet das Spiel, liest Spielzüge ein und wechselt zwischen Spieler und Computer,
-* bis das Spiel beendet ist. Gibt am Ende das Ergebnis aus.
+ Startet das Spiel, liest Spielzüge ein und wechselt zwischen Spieler und Computer,
+ bis das Spiel beendet ist. Gibt am Ende das Ergebnis aus.
 */
     public void startGame(Scanner scanner, ComputerPlayer computer) {
         control.reset();
@@ -60,9 +60,9 @@ public class PlayControl {
     }
 
    /*
-   * Gibt das aktuelle Spielfeld auf der Konsole aus.
-   * Wandelt die Zahlenwerte des Spielfelds in Symbole um:
-   * 1 = X, 2 = O, 0 = -.
+    Gibt das aktuelle Spielfeld auf der Konsole aus.
+    Wandelt die Zahlenwerte des Spielfelds in Symbole um:
+    1 = X, 2 = O, 0 = -.
    */
     private void printBoard() {
         int[][] board = control.getBoard();
