@@ -1,9 +1,5 @@
 package model;
 
-public class PlayControl {
-    private final int[][] pField = new int[3][3];
-    private final int none = 0, player = 1, computer = 2;
-
     public void reset() {
         for (int i = 0; i < 3; i++)
             for (int j = 0; j < 3; j++)
