@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class TicTacToeController {
     private final PlayControl control = new PlayControl();
 
+public class PlayControl {
+    private final int[][] pField = new int[3][3];
+    private final int none = 0, player = 1, computer = 2;
+
     public void startGame(Scanner scanner, ComputerPlayer computer) {
         control.reset();
         boolean playerTurn = true;
